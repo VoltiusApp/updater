@@ -10,3 +10,8 @@ PUBLIC_REPO = "false"
 
 # Required when PUBLIC_REPO = "false". Set via: wrangler secret put GITHUB_TOKEN
 # Needs: repo (read), contents (read)
+
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
