@@ -9,7 +9,7 @@ GITHUB_REPO = "voltius"
 PUBLIC_REPO = "false"
 
 # Required when PUBLIC_REPO = "false". Set via: wrangler secret put GITHUB_TOKEN
-# Needs: repo (read), contents (read)
+# Needs: Repository permissions → Contents → Read-only
 
 [observability]
 [observability.logs]
