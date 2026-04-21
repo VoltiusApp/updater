@@ -40,9 +40,8 @@ function findAsset(
       aarch64: /voltius_[\d.]+_aarch64\.AppImage\.tar\.gz$/,
     },
     windows: {
-      // Prefer NSIS over MSI
-      x86_64: /voltius_[\d.]+_x64-setup\.nsis\.zip$/,
-      aarch64: /voltius_[\d.]+_arm64-setup\.nsis\.zip$/,
+      x86_64: /voltius_[\d.]+_x64-setup\.exe$/,
+      aarch64: /voltius_[\d.]+_arm64-setup\.exe$/,
     },
     darwin: {
       x86_64: /voltius_[\d.]+_x64\.app\.tar\.gz$/,
