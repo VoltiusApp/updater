@@ -3,8 +3,8 @@ main = "src/index.ts"
 compatibility_date = "2024-09-23"
 
 [vars]
-GITHUB_OWNER = "kipavy"
-GITHUB_REPO = "TermForge"
+GITHUB_OWNER = "VoltiusApp"
+GITHUB_REPO = "voltius"
 # Set to "true" to skip proxying and return browser_download_url directly
 PUBLIC_REPO = "false"
 
