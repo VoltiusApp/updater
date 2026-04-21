@@ -1,0 +1,12 @@
+name = "tauri-update-server"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+
+[vars]
+GITHUB_OWNER = "kipavy"
+GITHUB_REPO = "TermForge"
+# Set to "true" to skip proxying and return browser_download_url directly
+PUBLIC_REPO = "false"
+
+# Required when PUBLIC_REPO = "false". Set via: wrangler secret put GITHUB_TOKEN
+# Needs: repo (read), contents (read)
