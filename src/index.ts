@@ -36,16 +36,16 @@ function findAsset(
 ): { archive: GithubAsset; sig: GithubAsset } | null {
   const archivePatterns: Record<string, Record<string, RegExp>> = {
     linux: {
-      x86_64: /voltius_[\d.]+_amd64\.AppImage\.tar\.gz$/,
-      aarch64: /voltius_[\d.]+_aarch64\.AppImage\.tar\.gz$/,
+      x86_64: /Voltius_[\d.]+_amd64\.AppImage$/,
+      aarch64: /Voltius_[\d.]+_aarch64\.AppImage$/,
     },
     windows: {
-      x86_64: /voltius_[\d.]+_x64-setup\.exe$/,
-      aarch64: /voltius_[\d.]+_arm64-setup\.exe$/,
+      x86_64: /Voltius_[\d.]+_x64-setup\.exe$/,
+      aarch64: /Voltius_[\d.]+_arm64-setup\.exe$/,
     },
     darwin: {
-      x86_64: /voltius_[\d.]+_x64\.app\.tar\.gz$/,
-      aarch64: /voltius_[\d.]+_aarch64\.app\.tar\.gz$/,
+      x86_64: /Voltius_x64\.app\.tar\.gz$/,
+      aarch64: /Voltius_aarch64\.app\.tar\.gz$/,
     },
   };
 
