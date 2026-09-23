@@ -44,8 +44,8 @@ function findAsset(
       aarch64: /Voltius_[\d.]+_arm64-setup\.exe$/,
     },
     darwin: {
-      x86_64: /Voltius_x64\.app\.tar\.gz$/,
-      aarch64: /Voltius_aarch64\.app\.tar\.gz$/,
+      x86_64: /Voltius_(?:[\d.]+_)?x64\.app\.tar\.gz$/,
+      aarch64: /Voltius_(?:[\d.]+_)?aarch64\.app\.tar\.gz$/,
     },
   };
 
